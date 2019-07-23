@@ -1,4 +1,9 @@
 import React, { Component } from 'react'
+import {FaRobot} from 'react-icons/fa'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
+
+import { getMessages } from './chatActions'
 
 class ChatList extends Component {
 
@@ -8,16 +13,32 @@ class ChatList extends Component {
         this.renderMessages = this.renderMessages.bind(this)
     }
 
-    renderMessages() {
+    componentWillMount() {
+        this.props.getMessages()
+    }
 
-        return (
-            <li className={`message received appeared`}>
-                <div className="avatar"></div>
-                <div className="text_wrapper">
-                    <div className="text">teste</div>
-                </div>
-            </li>
-        )
+    renderMessages() {
+        const list = this.props.messages || []
+        if(list[0] != undefined)
+            console.log(list[0].base)
+        if(list.length > 0){
+            return list.map((item, index) => (
+                <li key={index} className={`message ${item.base} appeared`} >
+                    <div className="avatar"></div>
+                    <div className="text_wrapper">
+                        <div className="text">{item.message}</div>
+                    </div>
+                </li>
+            ))
+        }
+
+        else{
+            return (
+                <li>
+
+                </li>
+            )
+        }
     }
 
     render() {
@@ -34,4 +55,11 @@ class ChatList extends Component {
     }
 }
 
-export default ChatList
+const mapStateToProps = state => ({
+  messages: state.chat.messages
+});
+
+const mapDispatchToProps = dispatch =>
+  bindActionCreators({ getMessages }, dispatch);
+
+export default connect(mapStateToProps, mapDispatchToProps)(ChatList)
