@@ -1,6 +1,7 @@
 import 'modules/jquery/dist/jquery.min'
-import 'bootstrap3/dist/js/bootstrap'
-import 'bootstrap3/dist/css/bootstrap.min.css';
+import 'modules/bootstrap/dist/js/bootstrap'
+import 'modules/bootstrap/dist/css/bootstrap.min.css'
+
 
 import './custom.css'
 import '../../chat/js/chat'

@@ -1,5 +1,5 @@
 import React from 'react'
-import DocumentsList from '../links/documents/documentsList'
+import DocumentsList from './documentsList'
 
 class Docs extends React.Component{
     render(){

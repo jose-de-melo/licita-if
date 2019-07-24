@@ -19,12 +19,10 @@ class ChatList extends Component {
 
     renderMessages() {
         const list = this.props.messages || []
-        if(list[0] != undefined)
-            console.log(list[0].base)
         if(list.length > 0){
             return list.map((item, index) => (
                 <li key={index} className={`message ${item.base} appeared`} >
-                    <div className="avatar"></div>
+                    <div className="avatar"><FaRobot /></div>
                     <div className="text_wrapper">
                         <div className="text">{item.message}</div>
                     </div>

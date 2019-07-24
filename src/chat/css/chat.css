@@ -4,7 +4,7 @@
 
 .chat_window {
     position: fixed;
-    bottom: 0;
+    bottom: -5px;
     right: 2%;
     width: calc(20% - 20px);
     max-width: 800px;
@@ -114,6 +114,9 @@
 
 .messages .message.received .avatar {
     background-color: #050505;
+    color: white;
+    align-items: center;
+    justify-content: center;
     float: left;
 }
 
@@ -133,6 +136,7 @@
 
 .messages .message.sent .avatar {
     background-color: #3593ff;
+    color:#3593ff;
     float: right;
 }
 
@@ -159,6 +163,12 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
     display: inline-block;
 }
 
