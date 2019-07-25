@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {FaRobot} from 'react-icons/fa'
+import {FaRobot, FaUser} from 'react-icons/fa'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
@@ -22,7 +22,7 @@ class ChatList extends Component {
         if(list.length > 0){
             return list.map((item, index) => (
                 <li key={index} className={`message ${item.base} appeared`} >
-                    <div className="avatar"><FaRobot /></div>
+                    <div className="avatar">{(item.base == 'sent') ? '' : <FaRobot /> }</div>
                     <div className="text_wrapper">
                         <div className="text">{item.message}</div>
                     </div>

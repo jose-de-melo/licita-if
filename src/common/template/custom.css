@@ -1,4 +1,3 @@
-@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css);
 @import url(https://fonts.googleapis.com/css?family=Questrial&display=swap);
 
 *{
@@ -38,7 +37,6 @@ body {
 .inner {
   color: black;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(255,255,255,.5);
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -174,10 +172,6 @@ body {
   vertical-align: middle !important;
 }
 
-.footer > .inner a{
-  color: gray;
-}
-
 img {
   display: block;
   width: 100%;
@@ -221,5 +215,83 @@ img {
 .licita, .if{
   font-size: 35px;
   font-weight: bold;
+}
+
+.docs{
+  border: none;
+  margin-bottom: 1%;
+  color: #7b1fa2;
+  background-color: #eeeeee;
+  border-radius: none;
+  text-shadow: none !important;
+}
+
+.title-item-list{
+  text-align: left;
+}
+
+.description-item-list{
+  text-align: left;
+}
+
+.content-item-list-rigth{
+  float: right;
+}
+
+.content-item-list-left{
+  float: left;
+}
+
+.link-doc{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.link-doc:hover{
+  text-decoration: none;
+}
+
+.type-doc{
+  color: white;
+  margin-bottom: 30%;
+}
+
+.checklist{
+  background-color: #2962ff;
+}
+
+.manual{
+  background-color: #ff1744;
+}
+
+.open-process{
+  background-color: #4dd0e1;
+}
+
+.other{
+  background-color: #212121;
+}
+
+.footer{
+  margin-top: 3% !important;
+  background-color: #7c4dff;
+}
+
+.footer .inner > p{
+  color:white !important;
+  font-size: 20px;
+}
+
+.footer > .inner a{
+  font-weight: bold;
+}
+
+.col-icon{
+  font-size: 250px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #aa00ff;
 }
 
