@@ -228,18 +228,24 @@ img {
 
 .title-item-list{
   text-align: left;
+  font-weight: bold;
+  font-size: 22px;
 }
 
 .description-item-list{
   text-align: left;
+  font-size: 20px;
+  color: #616161 !important;
 }
 
 .content-item-list-rigth{
   float: right;
+  font-weight: bold;
 }
 
 .content-item-list-left{
   float: left;
+  
 }
 
 .link-doc{
@@ -275,8 +281,7 @@ img {
 }
 
 .footer{
-  margin-top: 3% !important;
-  background-color: #7c4dff;
+  background-color: #6a1b9a;
 }
 
 .footer .inner > p{
@@ -293,5 +298,26 @@ img {
   text-align: center;
   vertical-align: middle;
   background-color: #aa00ff;
+}
+
+
+.content-div-home{
+  vertical-align: middle;
+  font-size: 30px;
+  padding: 30px;
+  color: #757575;
+}
+
+
+.title-div-home{
+  margin-top: 5%;
+  font-weight: bold;
+  font-size: 40px;
+  color: #6a1b9a;
+}
+
+.content-div-home > a{
+  color: #424242 !important;
+  text-decoration: none !important;
 }
 

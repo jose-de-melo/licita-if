@@ -14,7 +14,7 @@ class DocumentsList extends React.Component{
         const list = this.props.list || []
 
         return (list.map((doc, index) => (
-                    <li key={index} className="list-group-item docs">
+                    <li key={index} className="list-group-item docs text-center">
                         <div className="content-item-list-left text-wrap">
                             <h4 className="title-item-list">{doc.name}</h4>
                             <p className="description-item-list">{doc.description}</p>
@@ -32,7 +32,7 @@ class DocumentsList extends React.Component{
 
     render(){
         return(
-            <ul className="list-group mx-auto">
+            <ul className="list-group mx-auto mb-4 w-75 p-3">
                 {this.renderCards()}
             </ul>
         )
