@@ -15,13 +15,13 @@ class DocumentsList extends React.Component{
 
         return (list.map((doc, index) => (
                     <li key={index} className="list-group-item docs text-center">
-                        <div className="content-item-list-left text-wrap">
+                        <div className="content-item-list-left text-wrap w-85">
                             <h4 className="title-item-list">{doc.name}</h4>
-                            <p className="description-item-list">{doc.description}</p>
+                            <p className="description-item-list text-wrap pr-5">{doc.description}</p>
                         </div>
 
-                        <div className="content-item-list-rigth">
-                            <div className={`text-capitalize type-doc ${doc.type_doc}`}>{doc.type_doc}</div>
+                        <div className="content-item-list-rigth w-15 pl-5">
+                            <div className={`text-capitalize type-doc ${doc.type_doc.replace(' ', '-')}`}>{doc.type_doc}</div>
                             <a href={`${doc.url}`} className="text-reset link-doc">Download <FaFileDownload/> </a>
                         </div>
                        

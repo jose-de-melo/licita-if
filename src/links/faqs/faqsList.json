@@ -1,0 +1,119 @@
+{"list":[
+    
+        {
+            "pergunta": "O que é licitação?",
+            "resposta": "Processo administrativo responsável pela escolha da empresa apta a ser contratada pela administração pública para o fornecimento de seus produtos e/ou serviços. As licitações visam principalmente a escolha de opções mais vantajosas para os órgãos públicos, ou seja, a contratação de serviços ou compra de produtos com a melhor qualidade e menor preço.",
+            "tags": ["licitação", "processos"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que faz o setor de licitações do Instituto?",
+            "resposta": "",
+            "tags": ["licitação", "seção de licitação"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "Qual o horário de funcionamento do setor de licitações do Instituto?",
+            "resposta": "",
+            "tags": ["licitação", "seção de licitação"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "Qual o telefone para contato do Setor de Licitações?",
+            "resposta": "",
+            "tags": ["licitação", "seção de licitação"],
+            "id": ""
+        },
+
+
+        {
+            "pergunta": "O que é um termo de referência?",
+            "resposta": "Documento que deverá conter elementos capazes de propiciar a avaliação do custo pela Administração, diante de orçamento detalhado, considerando os preços praticados no mercado, a definição dos métodos, a estratégia de suprimento e o prazo de execução do contrato.",
+            "tags": ["documentos"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "Quais são os princípios das licitações?",
+            "resposta": "Os princípios das licitações públicas são: Isonomia, Legalidade, Impessoalidade, Moralidade, Igualdade, Publicidade, Economicidade e Eficiência, Probidade Administrativa, Vinculação ao Instrumento Convocatório e Julgamento Objetivo.",
+            "tags": ["licitações", "princípios"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que diz o princípio da Isonomia?",
+            "resposta": "Esse princípio garante que “todos são iguais perante a lei”. Ou seja, que todos os licitantes serão tratados de forma igual.",
+            "tags": ["licitações", "princípios", "isonomia"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que diz o princípio da Legalidade?",
+            "resposta": "Esse princípio diz que a Administração deve agir sempre dentro do que a lei permite. Significa dizer que o próprio poder público está sujeito aos mandamentos da lei. Apenas pode fazer o que é autorizado e não pode fazer o que a lei proíbe. Sob pena de invalidar seus atos.",
+            "tags": ["licitações", "princípios", "legalidade"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que diz o princípio da Impessoalidade?",
+            "resposta": "Esse princípio diz que a Administração deve adotar critérios objetivos e pré-estabelecidos para suas decisões. Ou seja, quando realizar um procedimento licitatório, deve aplicar critérios imparciais entre todos os participantes.",
+            "tags": ["licitações", "princípios", "impessoalidade"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que diz o princípio da Moralidade?",
+            "resposta": "Esse princípio diz que a Administração não pode ter conduta de má-fé. Não é permitido que os atos praticados pelo órgão sejam em desconformidade com a ética. A boa-fé deve ser sempre observada, tanto pela própria Administração, quanto pelos licitantes.",
+            "tags": ["licitações", "princípios", "moralidade"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que diz o princípio da Igualdade?",
+            "resposta": "Esse princípio guarda relação com o princípio da isonomia. Isso porque também pretende oferecer aos licitantes igualdade de direitos. Assim, há uma vedação de que a Administração tenha discriminação entre os participantes de um certame.",
+            "tags": ["licitações", "princípios", "igualdade"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que diz o princípio da Publicidade (Princípio da Motivação)?",
+            "resposta": "Esse princípio diz que todos os atos da Administração são públicos. Ou seja, devem ser disponibilizados para qualquer interessado.",
+            "tags": ["licitações", "princípios", "publicidade"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que diz o princípio da Economicidade e Eficiência?",
+            "resposta": "É o objetivo da licitação a escolha da proposta mais vantajosa. Sob qualquer aspecto, seja do tipo melhor preço, melhor técnica ou técnica e preço.",
+            "tags": ["licitações", "princípios", "economicidade", "eficiência"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que diz o princípio da Probidade Administrativa?",
+            "resposta": "É muito parecido com o princípio da moralidade. Ele pressupõe que haja ética e moral em todas as condutas da Administração e que o órgão haja de acordo com a boa-fé na condução do processo licitatório.",
+            "tags": ["licitações", "princípios", "probidade administrativa"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que diz o princípio da Vinculação ao Instrumento Convocatório?",
+            "resposta": "Esse princípio vem para determinar que o edital deve ser obedecido. Ou seja, o que está escrito no edital deve ser respeitado. No edital estão todas as normas que serão aplicadas na licitação e a Administração deve adotar o que está previsto.",
+            "tags": ["licitações", "princípios", "vinculação ao instrumento convocatório"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que diz o princípio do Julgamento Objetivo?",
+            "resposta": "O julgador, seja o Pregoeiro ou a Comissão de Licitação, deve observar os critérios do edital nos seus julgamentos. Deve utilizar critérios objetivos, pré-estabelecidos. Não pode ser subjetivo ou julgar por seu entendimento, sem que haja fundamento no edital e na lei.",
+            "tags": ["licitações", "princípios", "julgamento objetivo"],
+            "id": ""
+        }
+
+
+        
+        ]
+}

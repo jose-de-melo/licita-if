@@ -56,9 +56,9 @@ class Header extends React.Component{
                                 </Link>
                             </li>
                             
-                            <li className={this.props.location.pathname == '/feed' ? 'nav-item active' : 'nav-item'}>
-                                <Link to={'/feed'}>
-                                    Feed
+                            <li className={this.props.location.pathname == '/faqs' ? 'nav-item active' : 'nav-item'}>
+                                <Link to={'/faqs'}>
+                                    FAQs
                                 </Link>
                             </li>
 

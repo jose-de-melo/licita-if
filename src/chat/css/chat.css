@@ -253,3 +253,9 @@
 .message_template {
     display: none;
 }
+
+.message.received .text_wrapper a{
+    text-decoration: none;
+    color: inherit;
+}
+

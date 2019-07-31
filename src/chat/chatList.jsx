@@ -25,6 +25,7 @@ class ChatList extends Component {
                     <div className="avatar">{(item.base == 'sent') ? '' : <FaRobot /> }</div>
                     <div className="text_wrapper">
                         <div className="text">{item.message}</div>
+                        {(item.link) ? '' : ''}
                     </div>
                 </li>
             ))

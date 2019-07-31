@@ -18,10 +18,10 @@ class Home extends React.Component{
 
                     <div className="col-lg-6 text-white" style={{backgroundColor: '#eeeeee'}}>
                         <div className="align-middle text-center" style={{color:'black', paddingTop:'25px'}}>
-                            <h3 className="title-div-home">Feed de Notícias e Informações</h3> 
+                            <h3 className="title-div-home">FAQs</h3> 
                             <p className="content-div-home">
-                                Na aba <Link to={'/feed'}>Feed</Link>, você pode ficar por dentro das últimas notícias sobre Licitações aleḿ
-                                de encontrar informações que podem ser úteis pra você.
+                                Na aba <Link to={'/faqs'}>FAQs</Link>,você encontra respostas para dúvidas comuns de quem 
+                                está entrando no mundo das licitações. 
                             </p>
                         </div>
                     </div>
@@ -32,8 +32,8 @@ class Home extends React.Component{
                         <div className="align-middle text-center" style={{color:'black', paddingTop:'25px'}}>
                             <h3 className="title-div-home">Manuais e Documentos</h3> 
                             <p className="content-div-home">
-                                Na aba <Link to={'/documents'}>Manuais e Documentos</Link>, você tem acesso a diversos modelos de documentos utilizados
-                                em processos licitatórios específicos do Insituto além de manuais e cartilhas sobre as licitações.
+                                Na aba <Link to={'/documents'}>Manuais e Documentos</Link>, você tem acesso a diversos modelos de documentos específicos para o Insituto utilizados
+                                em processos licitatórios além de manuais e cartilhas sobre as licitações.
                             </p>
                         </div>    
                     </div>
@@ -53,7 +53,7 @@ class Home extends React.Component{
                             <h3 className="title-div-home">Bil</h3> 
                             <p className="content-div-home">
                                 Para facilitar ainda mais a sua experiência, você pode conversar com o Bil, assistente virtual do LicitaIF,
-                                para sanar qualquer dúvida que ainda tenha sobre as licitações no IF Sudeste MG Campus Barbacena.
+                                para sanar qualquer dúvida que ainda tenha sobre as licitações e o funcionamento do Setor de Licitações do IF Sudeste MG Campus Barbacena.
                             </p>
                         </div>
                     </div>

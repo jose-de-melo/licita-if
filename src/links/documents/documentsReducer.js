@@ -5,7 +5,7 @@ const INICIAL_STATE = {
 export default (state = INICIAL_STATE, action) =>{
     switch(action.type){
         case 'DOCS_FETCHED':
-            return {...state, list: (action.payload.data) ? action.payload.data.files : []}
+            return {...state, list: (action.payload.data) ? action.payload.data.list : []}
         default:
             return state
     }
