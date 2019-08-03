@@ -394,3 +394,9 @@ img {
   color: white;
   text-align: center;
 }
+
+.link-chat{
+  color: #7b1fa2 !important;
+  font-weight: bold;
+  font-size: 18px;
+}

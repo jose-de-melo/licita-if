@@ -3,28 +3,35 @@
         {
             "pergunta": "O que é licitação?",
             "resposta": "Processo administrativo responsável pela escolha da empresa apta a ser contratada pela administração pública para o fornecimento de seus produtos e/ou serviços. As licitações visam principalmente a escolha de opções mais vantajosas para os órgãos públicos, ou seja, a contratação de serviços ou compra de produtos com a melhor qualidade e menor preço.",
-            "tags": ["licitação", "processos"],
+            "tags": ["licitações", "processos"],
             "id": ""
         },
 
         {
             "pergunta": "O que faz o setor de licitações do Instituto?",
-            "resposta": "",
-            "tags": ["licitação", "seção de licitação"],
+            "resposta": "É responsável pela execução das atividades de aquisição de materiais e contratação de obras e serviços do Instituto, bem como pela condução de todos os procedimentos sobre licitações.",
+            "tags": ["licitações", "seção de licitação"],
             "id": ""
         },
 
         {
             "pergunta": "Qual o horário de funcionamento do setor de licitações do Instituto?",
-            "resposta": "",
-            "tags": ["licitação", "seção de licitação"],
+            "resposta": "07:00 às 12:00 horas e 14:00 às 17:00 horas.",
+            "tags": ["licitações", "seção de licitação", "horário"],
             "id": ""
         },
 
         {
             "pergunta": "Qual o telefone para contato do Setor de Licitações?",
-            "resposta": "",
-            "tags": ["licitação", "seção de licitação"],
+            "resposta": "O telefone para contato é (32) 3333-1174. Também é possível entrar em contato com o setor através do email licitacao.barbacena@ifsudestemg.edu.br .",
+            "tags": ["licitações", "seção de licitação"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que pode ser comprado/contratado através de licitação?",
+            "resposta": "Qualquer produto ou serviço. Não uma regra que especifique o que pode e o que não pode ser comprado/contratado. Se houver uma justificativa plausível, qualquer produto ou serviço pode ser comprado/contratado.",
+            "tags": ["licitações", "compras"],
             "id": ""
         },
 
@@ -32,7 +39,7 @@
         {
             "pergunta": "O que é um termo de referência?",
             "resposta": "Documento que deverá conter elementos capazes de propiciar a avaliação do custo pela Administração, diante de orçamento detalhado, considerando os preços praticados no mercado, a definição dos métodos, a estratégia de suprimento e o prazo de execução do contrato.",
-            "tags": ["documentos"],
+            "tags": ["licitações", "documentos"],
             "id": ""
         },
 
