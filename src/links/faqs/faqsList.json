@@ -8,6 +8,13 @@
         },
 
         {
+            "pergunta": "O que é pregão?",
+            "resposta": "Modalidade de licitação do tipo menor preço, para aquisição de bens e de serviços comuns, qualquer que seja o valor estimado, e a disputa é feita por propostas e lances sucessivos, em sessão pública, presencial ou eletrônica.",
+            "tags": ["licitações", "modalidades", "pregão"],
+            "id": ""
+        },
+
+        {
             "pergunta": "O que faz o setor de licitações do Instituto?",
             "resposta": "É responsável pela execução das atividades de aquisição de materiais e contratação de obras e serviços do Instituto, bem como pela condução de todos os procedimentos sobre licitações.",
             "tags": ["licitações", "seção de licitação"],
