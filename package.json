@@ -4,9 +4,8 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "start": "",
     "dev": "webpack-dev-server --progress --colors --inline --hot",
-    "production": "webpack --progress -p"
+    "production": "webpack --progress -p --define process.env.NODE_ENV='\"production\"'"
   },
   "keywords": [],
   "author": "José de Melo",
@@ -43,6 +42,7 @@
     "webpack-dev-server": "^3.7.1"
   },
   "dependencies": {
+    "http-server": "0.10.0",
     "bootstrap": "^4.3.1",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-emoji-render": "^1.0.0",
