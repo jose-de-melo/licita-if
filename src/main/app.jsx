@@ -9,8 +9,8 @@ export default props => (
     <div className="site-wrapper-inner">
         <div className="cover-container">
             <Routes />
-            <Footer nome="José"/>
         </div>
+        <Footer nome="José"/>
         <Chat />
     </div>
 )

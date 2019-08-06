@@ -7,12 +7,35 @@
             "id": ""
         },
 
+
         {
-            "pergunta": "O que é pregão?",
+            "pergunta": "Quais são as modalidades de licitação?",
+            "resposta": "Existem muitas modalidades de licitação, porém seram listadas aqui, aquelas que são realizadas com mais frequência no setor de licitações. São elas: Pregão, Adesão, Cotação Eletrônica, Tomada de Preços, além das Inexigibilidades e Dispensas de Licitação, que não são consideradas modalidades de licitação, porém também se faz necessário solicitar abertura de processo administrativo.",
+            "tags": ["licitações", "modalidades"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que é um pregão?",
             "resposta": "Modalidade de licitação do tipo menor preço, para aquisição de bens e de serviços comuns, qualquer que seja o valor estimado, e a disputa é feita por propostas e lances sucessivos, em sessão pública, presencial ou eletrônica.",
             "tags": ["licitações", "modalidades", "pregão"],
             "id": ""
         },
+
+        {
+            "pergunta": "O que é uma dl?",
+            "resposta": "Dispensa da licitação (DL) é uma desburocratização aplicada à casos especiais previstos em lei. Ela está prevista no art. 24 da Lei 8.666/93. São situações pontuais que exigem um atendimento rápido e eficaz, ou ainda, que não justificam a movimentação do procedimento licitatório.",
+            "tags": ["licitações", "modalidades", "dl"],
+            "id": ""
+        },
+
+        {
+            "pergunta": "O que é uma adesão ou carona?",
+            "resposta": "O Sistema de Registro de Preços (SRP) é um procedimento especial de Licitação, utilizado para registrar preços visando a contratação futura para a aquisição de bens e serviços. Foi introduzido no ordenamento jurídico pela lei nº 8.666/93, e regulamentado por decreto federal. O  decreto nº 3.931/2001, possibilitou a extensão da utilização da Ata de Registro de Preços de determinado órgão ou entidade por outro que não tenha participado do Sistema de Registro de Preços, criando, assim, a figura da “carona” (adesão). A adesão à Ata de Registro de Preços, por sua vez, é tida como um o ato, por meio do qual um órgão ou entidade da Administração Pública adere à ata elaborada mediante licitação promovida por outro órgão, valendo-se dela como sua fosse.",
+            "tags": ["licitações", "modalidades", "adesão"],
+            "id": ""
+        },
+
 
         {
             "pergunta": "O que faz o setor de licitações do Instituto?",

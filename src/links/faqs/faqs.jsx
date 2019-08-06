@@ -42,7 +42,7 @@ class FAQS extends React.Component{
         const divsFaqs = this.renderFAQs()
         return(
             <div>
-                <h1 className="cover-heading" style={{color:'#7b1fa2', marginBottom: '3%', fontSize:'70px',marginTop:'150px', textAlign:'center'}}>FAQs (Perguntas Frequentes)</h1>
+                <h1 className="cover-heading" style={{color:'#7b1fa2', marginBottom: '3%', fontSize:'70px',marginTop:'120px', textAlign:'center'}}>FAQs (Perguntas Frequentes)</h1>
                 {divsFaqs}
             </div>
         )
