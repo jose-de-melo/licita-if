@@ -489,6 +489,10 @@ html, body {
   padding-bottom: 10px;
 }
 
+.col-icon-sm{
+  display:none;
+}
+
 
 
 /**
@@ -526,7 +530,7 @@ html, body {
 
 
   .col-icon-sm{
-    visibility: visible;
+    display: inline;
   }
 
   .col-icon-2{
