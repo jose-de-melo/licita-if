@@ -521,7 +521,7 @@ html, body {
 
   .content-div-home {
     font-size: 22px;
-    padding: 22px;
+    padding: 2px;
   }
 
 
@@ -573,6 +573,7 @@ html, body {
   .faqs-content > .faq-pergunta {
     font-size: 20px;
     text-align: center;
+    padding: 5px;
   }
 
   .faq-container {
@@ -598,6 +599,10 @@ html, body {
 
   .label-resp{
     font-size: 18px;
+  }
+
+  .faq-tag {
+    margin-right: 4%;
   }
 }
 
