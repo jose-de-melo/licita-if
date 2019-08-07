@@ -44,7 +44,7 @@ class Home extends React.Component{
                 </div>
 
                 <div className="row no-gutters">
-                    <div className="col-lg-6 order-lg-2 text-white col-icon" style={{backgroundColor: '#aa00ff'}}>
+                    <div className="col-lg-6 order-lg-2 text-white col-icon">
                         <FaRobot />
                     </div>
 

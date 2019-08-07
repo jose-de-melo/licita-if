@@ -32,12 +32,14 @@ export const newMessage = () => {
 }
 
 export const sendMessage = (message) => {
-    const session_id = localStorage.getItem(consts.USER_SESSION);
-    return dispatch => {
-        dispatch(newMessage());
-        dispatch(clear());
-        axios.post(`${consts.BASE_URL}/chat`, { message, session_id})
-            .then(res => dispatch(storeUser(res)))
-            .then(() => dispatch(getMessages()))
+    if(message != ''){
+        const session_id = localStorage.getItem(consts.USER_SESSION);
+        return dispatch => {
+            dispatch(newMessage());
+            dispatch(clear());
+            axios.post(`${consts.BASE_URL}/chat`, { message, session_id})
+                .then(res => dispatch(storeUser(res)))
+                .then(() => dispatch(getMessages()))
+        }
     }
 }

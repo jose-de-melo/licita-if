@@ -316,7 +316,9 @@ html, body {
   font-size: 250px;
   text-align: center;
   vertical-align: middle;
-  background-color: #aa00ff;
+  background: rgb(123,31,162);
+  background: linear-gradient(90deg, rgba(123,31,162,1) 0%, rgba(123,31,162,1) 51%, rgba(83,109,254,1) 97%);
+  padding-bottom: 10px;
 }
 
 
@@ -464,6 +466,8 @@ html, body {
   padding-right: 15px;
   font-size: 22px;
 }
+
+
 * {
     box-sizing: border-box;
 }
@@ -737,6 +741,49 @@ html, body {
 
 .text-title{
     margin-left: 5%;
+}
+
+.text-title::before{
+    content: 'Fale com o Bil 😉';
+}
+
+
+@media screen and (max-width: 480px) {
+    .chat_window{
+        width: 95%;
+        right: 2.5%;
+    }
+
+    .button.maximize{
+        visibility: hidden;
+    }
+
+    .button.minimize{
+        visibility: hidden;
+    }
+
+    .bottom_wrapper .send_message{
+        background-color: #651fff;
+        border: 2px solid #651fff;
+    }
+
+    .bottom_wrapper .send_message:hover{
+        background-color: #651fff;
+        border: 2px solid #651fff;
+        color:white;
+    }
+
+    .text-title::before{
+        content: 'Bil 🤖';
+    }
+
+    .bottom_wrapper .send_message {
+        width: 120px;
+    }
+
+    .bottom_wrapper .message_input_wrapper {
+        width: calc(100% - 130px);
+    }  
 }
 
 

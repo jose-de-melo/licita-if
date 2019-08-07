@@ -7,7 +7,7 @@ export default props => (
             <div className="button minimize">-</div>
             <div className="button maximize">o</div>
         </div>
-        <div className="title"><span className="ball-on"></span><span className="text-title">Fale com o Bil &#128521;</span></div>
+        <div className="title"><span className="ball-on"></span><span className="text-title"></span></div>
     </div>
 )
 

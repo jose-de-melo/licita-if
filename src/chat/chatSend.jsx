@@ -23,7 +23,7 @@ class ChatSend extends Component {
         return (
             <div className="bottom_wrapper clearfix">
                 <div className="message_input_wrapper">
-                    <input className="message_input" placeholder="Digite sua mensagem aqui..." onKeyUp={this.keyHandler} onChange={changeMessage} value={message}/>
+                    <input className="message_input" placeholder="Digite aqui..." onKeyUp={this.keyHandler} onChange={changeMessage} value={message}/>
                 </div>
                 <div className="send_message" onClick={() => sendMessage(message)}>
                     <div className="icon"></div>

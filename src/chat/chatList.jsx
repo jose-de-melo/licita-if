@@ -1,14 +1,9 @@
 import React, { Component } from 'react'
-import {FaRobot, FaUser} from 'react-icons/fa'
+import {FaRobot} from 'react-icons/fa'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import Emoji from 'react-emoji-render';
 
 import { getMessages } from './chatActions'
-
-const emojis = {
-    "wiking": '&#128523;'
-}
 
 class ChatList extends Component {
 

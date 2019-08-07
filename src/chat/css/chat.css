@@ -273,3 +273,46 @@
     margin-left: 5%;
 }
 
+.text-title::before{
+    content: 'Fale com o Bil 😉';
+}
+
+
+@media screen and (max-width: 480px) {
+    .chat_window{
+        width: 95%;
+        right: 2.5%;
+    }
+
+    .button.maximize{
+        visibility: hidden;
+    }
+
+    .button.minimize{
+        visibility: hidden;
+    }
+
+    .bottom_wrapper .send_message{
+        background-color: #651fff;
+        border: 2px solid #651fff;
+    }
+
+    .bottom_wrapper .send_message:hover{
+        background-color: #651fff;
+        border: 2px solid #651fff;
+        color:white;
+    }
+
+    .text-title::before{
+        content: 'Bil 🤖';
+    }
+
+    .bottom_wrapper .send_message {
+        width: 120px;
+    }
+
+    .bottom_wrapper .message_input_wrapper {
+        width: calc(100% - 130px);
+    }  
+}
+
