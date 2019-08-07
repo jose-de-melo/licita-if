@@ -462,3 +462,77 @@ html, body {
   font-size: 22px;
 }
 
+.project-info{
+  margin-top: 150px;
+}
+
+.project-info-title{
+  color:#757575;
+}
+
+.project-info-description{
+  font-size:30px;
+  color:#616161;
+}
+
+.col-icon-sm{
+  font-size: 80px;
+  text-align: center;
+  vertical-align: middle;
+  background: rgb(123,31,162);
+  background: linear-gradient(90deg, rgba(123,31,162,1) 0%, rgba(123,31,162,1) 51%, rgba(83,109,254,1) 97%);
+  padding-bottom: 10px;
+}
+
+
+
+/**
+  Responsividade da página home.
+*/
+@media screen and (max-width: 480px) {
+  .project-info{
+    margin-top: 27%;
+  }
+
+  .project-info-title{
+    font-size: 80px;
+  }
+  
+  .project-info-description{
+    font-size:22px;
+  }
+
+  .lead {
+    margin-bottom: 20px;
+  }
+
+  .col-icon {
+    font-size: 80px;
+  }
+
+  .title-div-home {
+    font-size: 25px;
+  }
+
+  .content-div-home {
+    font-size: 22px;
+    padding: 22px;
+  }
+
+
+  .col-icon-sm{
+    visibility: visible;
+  }
+
+  .col-icon-2{
+    display:none;
+  }
+}
+
+
+/**
+  Responsividade da página faqs.
+*/
+@media screen and (max-width: 480px) {
+
+}

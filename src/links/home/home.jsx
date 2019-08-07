@@ -6,12 +6,12 @@ class Home extends React.Component{
     render(){
         return(
             <div >
-                <div style={{marginTop:'150px'}}>
-                    <h1 className="display-1 text-center" style={{color:'#757575'}}>LicitaIF</h1>
-                    <p className="lead text-center" style={{fontSize:'30px', color:'#616161'}}>A ajuda que você precisava para aprender tudo sobre as Licitações &#128526; </p>
+                <div className="project-info">
+                    <h1 className="display-1 text-center project-info-title">LicitaIF</h1>
+                    <p className="lead text-center project-info-description">A ajuda que você precisava para aprender tudo sobre as Licitações &#128526; </p>
                 </div>
 
-                <div className="row no-gutters">
+                <div className="row no-gutters row-home">
                     <div className="col-lg-6 text-white col-icon">
                         <FaList />
                     </div>
@@ -21,13 +21,16 @@ class Home extends React.Component{
                             <h3 className="title-div-home">FAQs</h3> 
                             <p className="content-div-home">
                                 Na aba <Link to={'/faqs'}>FAQs</Link>,você encontra respostas para dúvidas comuns de quem 
-                                está entrando no mundo das licitações. 
+                                está entrando no mundo das licitações.
                             </p>
                         </div>
                     </div>
                 </div>
 
                 <div className="row no-gutters">
+                <div className="col-lg-6 order-lg-2 text-white col-icon-sm">
+                        <FaFileContract/>
+                    </div>
                     <div className="col-lg-6 order-lg-2 text-white" style={{backgroundColor: '#eeeeee'}}>
                         <div className="align-middle text-center" style={{color:'black', paddingTop:'25px'}}>
                             <h3 className="title-div-home">Manuais e Documentos</h3> 
@@ -38,7 +41,7 @@ class Home extends React.Component{
                         </div>    
                     </div>
 
-                    <div className="col-lg-6 order-lg-2 text-white col-icon">
+                    <div className="col-lg-6 order-lg-2 text-white col-icon col-icon-2">
                         <FaFileContract/>
                     </div>
                 </div>
