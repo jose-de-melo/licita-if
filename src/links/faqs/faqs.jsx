@@ -13,7 +13,7 @@ class FAQS extends React.Component{
 
     renderFAQs(){
         return faqs.list.map((item, index) =>(
-            <div key={index} id={`#${item.id}`} className="mx-auto w-85">
+            <div key={index} className="mx-auto w-85 faq">
                 <div className="faq-container w-100 clearfix">
                     <div className="faqs-content">
                         <div className="faq-pergunta">
@@ -42,7 +42,7 @@ class FAQS extends React.Component{
         const divsFaqs = this.renderFAQs()
         return(
             <div>
-                <h1 className="cover-heading" style={{color:'#7b1fa2', marginBottom: '3%', fontSize:'70px',marginTop:'120px', textAlign:'center'}}>FAQs (Perguntas Frequentes)</h1>
+                <h1 className="cover-heading title-faqs"></h1>
                 {divsFaqs}
             </div>
         )

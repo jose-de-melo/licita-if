@@ -534,12 +534,71 @@ html, body {
   }
 }
 
+.title-faqs{
+  color:#7b1fa2;
+  margin-bottom: 3%;
+  font-size:70px;
+  margin-top:120px; 
+  text-align:center;
+}
+
+.title-faqs::after{
+  content: 'FAQs (Perguntas Frequentes)';
+}
+
+.faq{
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
 
 /**
   Responsividade da página faqs.
 */
 @media screen and (max-width: 480px) {
+  .title-faqs{
+    margin-top: 27%;
+  }
 
+  .title-faqs::after{
+    content: 'FAQs';
+  }
+
+  .faq{
+    margin-left: 0!important;
+    margin-right: 0!important;
+    width: 100%!important;
+  }
+
+  .faqs-content > .faq-pergunta {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .faq-container {
+    border-radius: 0;
+    margin-bottom: 5%;
+  }
+
+  .faqs-content > .faq-resposta {
+    text-align: justify;
+    font-size: 18px;
+    border-radius: 0;
+  }
+
+  .faq-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .faq-tags {
+    margin-left: 2%;
+    font-size: 20px;
+  }
+
+  .label-resp{
+    font-size: 18px;
+  }
 }
 
 * {
