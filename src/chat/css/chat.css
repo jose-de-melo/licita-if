@@ -29,7 +29,7 @@
 }
 
 .top_menu {
-    background-color: #5e35b1;
+    background-color: rgba(83,109,254,1);
     width: 100%;
     padding: 20px 0 15px;
     box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -105,11 +105,17 @@
 }
 
 .messages .message.received .avatar {
-    background-color: #4a148c;
+    background-color: rgba(83,109,254,1);
     color: white;
     align-items: center;
     justify-content: center;
     float: left;
+}
+
+.messages .message.sent .avatar{
+    color: white;
+    align-items: center;
+    justify-content: center;
 }
 
 .messages .message.received .text_wrapper {
@@ -129,6 +135,9 @@
 .messages .message.sent .avatar {
     background-color: #b388ff;
     float: right;
+    font-size: 35px;
+    color: white;
+    line-height: 50px;
 }
 
 .messages .message.sent .text_wrapper {
