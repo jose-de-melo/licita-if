@@ -322,6 +322,11 @@
 
     .bottom_wrapper .message_input_wrapper {
         width: calc(100% - 130px);
-    }  
+    }
+    
+    .link-chat{
+        word-wrap: break-word;
+        font-size:15px;
+      }
 }
 
