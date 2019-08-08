@@ -13,7 +13,7 @@ class DocumentsList extends React.Component{
     renderDocs(){
         const list = this.props.list || []
 
-        if(list.length < 0){
+        if(list.length > 0){
             return (list.map((doc, index) => (
                 <li key={index} className="list-group-item docs text-center">
                     <div className="content-item-list-left text-wrap w-85">
