@@ -4,44 +4,6 @@ import { Link } from 'react-router'
 class Header extends React.Component{
     render(){
         return(
-            /**
-            <div>
-                <div classNameName="masthead clearfix">
-                    <div classNameName="inner">
-                        <h3 classNameName="masthead-brand">LicitaIF</h3> 
-                        <nav>
-                            <ul classNameName="nav masthead-nav">
-                                <li classNameName={this.props.location.pathname == '/' ? 'active' : ''}>
-                                    <Link to={'/'}>
-                                        Página Inicial
-                                    </Link>
-                                </li>
-
-                                <li classNameName={this.props.location.pathname == '/forum' ? 'active' : ''}>
-                                    <Link to={'/forum'}>
-                                        Fórum
-                                    </Link>
-                                </li>
-
-                                <li classNameName={this.props.location.pathname == '/documents' ? 'active' : ''}>
-                                    <Link to={'/documents'}>
-                                        Manuais e Documentos
-                                    </Link>
-                                </li>
-
-                                <li classNameName={this.props.location.pathname == '/about' ? 'active' : ''}>
-                                    <Link to={'/about'}>
-                                        Sobre
-                                    </Link>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-                {this.props.children}
-            </div>
-            */
-
             <div>
                 <nav className="navbar navbar-expand-lg navbar-dark fixed-top" style={{backgroundColor:'#673ab7'}}>
                     <a className="navbar-brand" href="/"><span className="licita">Licita</span><span className="if">IF</span></a>

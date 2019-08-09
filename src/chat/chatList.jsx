@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {FaRobot, FaUser} from 'react-icons/fa'
+import {FaRobot, FaUser, FaDownload, FaFileDownload} from 'react-icons/fa'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
@@ -15,6 +15,32 @@ class ChatList extends Component {
 
     componentWillMount() {
         this.props.getMessages()
+    }
+
+    verifyMessage(message){
+        if(message.includes('<link>')){
+            return this.renderLink(message)
+        }else{
+            if(message.includes('<doc>')){
+                return this.renderDocs(message)
+            }
+            else{
+                return(
+                    <div className="text">{message}</div>
+                )
+            }
+        }                       
+    }
+
+    renderDocs(message){
+        const messageArray = message.split(';')
+        return(
+            <a href={messageArray[1]} target="_blank" className="chat-link-doc">
+                <div className="border-name-doc">
+                    <span className="name-doc-chat">{messageArray[3]}</span> <span className="circle-download"><FaFileDownload/></span>
+                </div>
+            </a>
+        )
     }
 
     renderLink(message){
@@ -35,10 +61,7 @@ class ChatList extends Component {
                     <div className="avatar">{(item.base == 'sent') ? <FaUser/>: <FaRobot /> }</div>
                     <div className="text_wrapper">
                         {
-                            (item.message.includes('<link>')) 
-                            ? this.renderLink(item.message) 
-                            : 
-                            <div className="text">{item.message}</div>
+                            this.verifyMessage(item.message)
                         }
                     </div>
                 </li>

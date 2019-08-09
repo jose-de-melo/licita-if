@@ -1068,4 +1068,14 @@ html, body {
       }
 }
 
-
+.border-name-doc {
+    width: 100%!important;
+    border: 2px solid #4db6ac;
+    background-color: #80cbc4;
+    color: #004d40!important;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2%;
+}
