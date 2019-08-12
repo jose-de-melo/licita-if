@@ -1,11 +1,11 @@
 import React from 'react'
 import {FaList, FaRobot, FaFileContract} from 'react-icons/fa'
-import { Link } from 'react-router'
+import { Link, withRouter } from 'react-router-dom'
 
 class Home extends React.Component{
     render(){
         return(
-            <div >
+            <div>
                 <div className="project-info">
                     <h1 className="display-1 text-center project-info-title">LicitaIF</h1>
                     <p className="lead text-center project-info-description">A ajuda que você precisava para aprender tudo sobre as Licitações &#128526; </p>
@@ -67,4 +67,4 @@ class Home extends React.Component{
     }
 }
 
-export default Home
+export default withRouter(Home)

@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { applyMiddleware, createStore } from 'redux'
 import { Provider } from 'react-redux'
+import { BrowserRouter } from 'react-router-dom'
 
 import promise from 'redux-promise'
 import multi from 'redux-multi'
@@ -14,6 +15,8 @@ const store = applyMiddleware(thunk, multi, promise)(createStore)(reducers)
 
 ReactDOM.render(
     <Provider store={store}>
-        <App />
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
     </Provider>
-, document.getElementById('app'))
+    , document.getElementById('app'))
