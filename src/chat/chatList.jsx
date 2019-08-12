@@ -46,7 +46,7 @@ class ChatList extends Component {
     renderLink(message){
         const messageArray = message.split(';')
         return(
-            <a className="link-chat" href={messageArray[1]} target="_blank">
+            <a className="link-chat" href={messageArray[1]}>
                 {messageArray[2]}
             </a>
         )
