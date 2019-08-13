@@ -286,6 +286,18 @@
     content: 'Fale com o Bil 😉';
 }
 
+.border-name-doc {
+    width: 100%!important;
+    border: 2px solid #4db6ac;
+    background-color: #80cbc4;
+    color: #004d40!important;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2%;
+}
+
 
 @media screen and (max-width: 480px) {
     .chat_window{
@@ -327,17 +339,14 @@
     .link-chat{
         word-wrap: break-word;
         font-size:15px;
-      }
+    }
+
+    .border-name-doc {
+        font-size: 18px;
+    }
+
+    .messages .message .text_wrapper .text {
+        font-size: 17px;
+    }
 }
 
-.border-name-doc {
-    width: 100%!important;
-    border: 2px solid #4db6ac;
-    background-color: #80cbc4;
-    color: #004d40!important;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 1rem;
-    text-align: center;
-    padding: 2%;
-}
