@@ -324,7 +324,8 @@ html, body {
 
 .content-div-home{
   vertical-align: middle;
-  font-size: 30px;
+  text-align: center;
+  font-size: 25px;
   padding: 30px;
   color: #757575;
 }
@@ -333,7 +334,7 @@ html, body {
 .title-div-home{
   margin-top: 5%;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
   color: #6a1b9a;
 }
 
@@ -508,7 +509,9 @@ html, body {
   }
   
   .project-info-description{
-    font-size:22px;
+    font-size:25px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .lead {
@@ -526,6 +529,9 @@ html, body {
   .content-div-home {
     font-size: 22px;
     padding: 2px;
+    padding-left: 10%;
+    text-align: justify;
+    padding-right: 10%;
   }
 
 

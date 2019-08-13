@@ -4,7 +4,7 @@
             "pergunta": "O que é licitação?",
             "resposta": "Processo administrativo responsável pela escolha da empresa apta a ser contratada pela administração pública para o fornecimento de seus produtos e/ou serviços. As licitações visam principalmente a escolha de opções mais vantajosas para os órgãos públicos, ou seja, a contratação de serviços ou compra de produtos com a melhor qualidade e menor preço.",
             "tags": ["licitações", "processos"],
-            "id": ""
+            "id": "o-que-e-licitacao"
         },
 
 
@@ -21,6 +21,8 @@
             "tags": ["licitações", "modalidades", "pregão"],
             "id": ""
         },
+
+        
 
         {
             "pergunta": "O que é uma dl?",
@@ -41,7 +43,7 @@
             "pergunta": "O que faz o setor de licitações do Instituto?",
             "resposta": "É responsável pela execução das atividades de aquisição de materiais e contratação de obras e serviços do Instituto, bem como pela condução de todos os procedimentos sobre licitações.",
             "tags": ["licitações", "seção de licitação"],
-            "id": ""
+            "id": "atividades-setor"
         },
 
         {
@@ -63,6 +65,13 @@
             "resposta": "Qualquer produto ou serviço. Não uma regra que especifique o que pode e o que não pode ser comprado/contratado. Se houver uma justificativa plausível, qualquer produto ou serviço pode ser comprado/contratado.",
             "tags": ["licitações", "compras"],
             "id": ""
+        },
+
+        {
+            "pergunta": "O que é o PGC?",
+            "resposta": "O sistema de Planejamento e Gerenciamento de Contratações (PGC) é uma ferramenta eletrônica que consolida todas as contratações que o órgão ou entidade pretende realizar no exercício subsequente, acompanhadas dos respectivos Estudos preliminares e Gerenciamento de riscos. A ferramenta permite a elaboração do Plano Anual de Contratações, por meio de módulos de preenchimento simplificado, estruturando as informações relativas ao planejamento das contratações públicas dos órgãos ou entidades da Administração Pública federal direta, autárquica e fundacional.",
+            "tags": ["licitações", "pgc"],
+            "id": "pgc"
         },
 
 
