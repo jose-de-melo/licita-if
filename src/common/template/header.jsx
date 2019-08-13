@@ -5,7 +5,7 @@ class Header extends React.Component{
     render(){
         return(
             <div>
-                <nav className="navbar navbar-expand-lg navbar-dark fixed-top" style={{backgroundColor:'#673ab7', zIndex:'0'}}>
+                <nav className="navbar navbar-expand-lg navbar-dark fixed-top" style={{backgroundColor:'#673ab7', zIndex:'49'}}>
                     <a className="navbar-brand" href="/"><span className="licita">Licita</span><span className="if">IF</span></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

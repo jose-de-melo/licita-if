@@ -758,7 +758,7 @@ html, body {
     background-color: #f8f8f8;
     overflow: hidden;
     height: 60px;
-    z-index: 5;
+    z-index: 50;
 }
 
 @media screen and (max-width: 480px) {
