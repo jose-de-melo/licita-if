@@ -28,6 +28,6 @@ O intuito da aplicação é auxiliar servidores do IF com Licitações, meio de 
 
 ## Testando
 
-Para ver a aplicação funcionando, acesso o site [LicitaIF](https://licitaif.herokuapp.com/).
+Para testar a aplicação, acesso o site [LicitaIF](https://licitaif.herokuapp.com/).
 
 
