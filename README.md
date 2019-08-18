@@ -21,7 +21,7 @@ O intuito da aplicação é auxiliar servidores do IF com Licitações, meio de 
 
 <img src="img/chat.gif" alt="Chat - Conversação" style="margin-left: 20%;margin-top:10px;margin-bottom:10px">
 
-> O chatbot fornece modelos para documentos utilizados no Instituto.
+> O chatbot também fornece modelos para documentos utilizados no Instituto.
 
 <img src="img/chat-docs.gif" alt="Chat - Documentos" style="margin-left: 20%;margin-top:10px;margin-bottom:10px">
 
