@@ -26,3 +26,8 @@ O intuito da aplicação é auxiliar servidores do IF com Licitações, meio de 
 <img src="img/chat-docs.gif" alt="Chat - Documentos" style="margin-left: 20%;margin-top:10px;margin-bottom:10px">
 
 
+## Testando
+
+Para ver a aplicação funcionando, acesso o site [LicitaIF](https://licitaif.herokuapp.com/).
+
+
