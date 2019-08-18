@@ -1,4 +1,9 @@
 theme: jekyll-theme-cayman
 
 ## Defininido o favicon da aplicação
-favicon: licitaif/img/favicon.ico
+favicon: https://jose-de-melo.github.io/licita-if/img/favicon.ico
+
+uistring:
+    title: LicitaIF
+    description: Aplicação web desenvolvida para auxiliar os servidores do IF Sudeste MG - Campus Barbacena com Licitações.
+    copyright: © 2019 LicitaIF - José de Melo
