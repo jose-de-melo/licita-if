@@ -24,7 +24,7 @@
     "file-loader": "^4.0.0",
     "font-awesome": "4.7.0",
     "ionicons": "3.0.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "lodash": "^4.17.19",
     "mini-css-extract-plugin": "^0.7.0",
     "popper.js": "^1.14.7",
