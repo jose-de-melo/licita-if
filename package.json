@@ -25,7 +25,7 @@
     "font-awesome": "4.7.0",
     "ionicons": "3.0.0",
     "jquery": "^3.3.1",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "mini-css-extract-plugin": "^0.7.0",
     "popper.js": "^1.14.7",
     "react": "15.4.2",
